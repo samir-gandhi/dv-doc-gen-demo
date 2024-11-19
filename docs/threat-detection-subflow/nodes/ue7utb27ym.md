@@ -70,7 +70,7 @@ inputSchema
 
 sktemplate
 ```string 
-f3e47d945ae971a4b4142ec75012d155
+
 ```
 
 
