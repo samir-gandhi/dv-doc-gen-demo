@@ -19,7 +19,8 @@ An exhaustive list of settings including defaults.
 ## Variables
 | Variable | Value | Context | Display Name | Field Type | Min | Max | Mutable | Type |                                                                                                                                                                
 |----------------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| agreementId##SK##flowInstance | 837fc6db-c549-4aef-8b79-cf9292d7b276 | flowInstance | Agreement id | string | 0 | 2000 | true | property | 
+| addnewvar##SK##flowInstance |  | flowInstance |  | string | 0 | 2000 | true | property | 
+ | agreementId##SK##flowInstance | 837fc6db-c549-4aef-8b79-cf9292d7b276 | flowInstance | Agreement id | string | 0 | 2000 | true | property | 
  | ciam_accountRecoveryEnabled##SK##company | false | company | Account recovery enabled | boolean | 0 | 2000 | true | property | 
  | ciam_agreementEnabled##SK##company | false | company | Agreement enabled | boolean | 0 | 2000 | true | property | 
  | ciam_appleEnabled##SK##company | false | company | Apple enabled | boolean | 0 | 2000 | true | property | 
