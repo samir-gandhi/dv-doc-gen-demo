@@ -645,52 +645,53 @@ resource "davinci_flow" "ciam_passwordless_protect_registration_authentication_a
   flow_json = file("./davinci-flows/davinci-oidc-passwordless-flow.json")
 
   // Subflow link: CIAM-Passwordless-Protect-Account-Recovery-Subflow
+  // Subflow link: CIAM-Passwordless-Protect-Account-Recovery-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_account_recovery_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_account_recovery_subflow.name
-    replace_import_subflow_id = "3322c447b029c72286ad45616542d355"
+    replace_import_subflow_id = "34aa421d99cda52f91eaaa91f996c6e5"
   }
 
   // Subflow link: CIAM-Passwordless-Protect-Account-Registration-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_account_registration_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_account_registration_subflow.name
-    replace_import_subflow_id = "82fae71a028fd99d9a2ea3ae19964ea1"
+    replace_import_subflow_id = "ecb4ae2dea14fd2750a883aa21d61aa4"
   }
 
   // Subflow link: CIAM-Passwordless-Protect-Agreement(ToS)-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_agreement_tos_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_agreement_tos_subflow.name
-    replace_import_subflow_id = "8c5107ec6202ca3d7a6341c10d6bceff"
+    replace_import_subflow_id = "4fff1c745ee496866a49f0e452972ede"
   }
 
   // Subflow link: CIAM-Passwordless-Protect-Change-Password-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_change_password_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_change_password_subflow.name
-    replace_import_subflow_id = "83a99a1f6235b705531a595dbef7dfea"
+    replace_import_subflow_id = "0fe789ed172012ac13ab880d1c0a6ea8"
   }
 
   // Subflow link: CIAM-Passwordless-Protect-Device-Authentication-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_device_authentication_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_device_authentication_subflow.name
-    replace_import_subflow_id = "a724ef13aec8f881f5ffa281727c7c86"
+    replace_import_subflow_id = "0c23b8d388a18dfda1ca691085b72581"
   }
 
   // Subflow link: CIAM-Passwordless-Protect-Threat-Detection-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_threat_detection_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_threat_detection_subflow.name
-    replace_import_subflow_id = "0c39119a51d955007a0eb60ac0434881"
+    replace_import_subflow_id = "1ec71a1c70ab26ffcdb4853fba37c2f4"
   }
 
   // Subflow link: CIAM-Passwordless-Protect-Verify-Email-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_verify_email_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_verify_email_subflow.name
-    replace_import_subflow_id = "30b8d33b5a6ba430403a501aa6bcfddf"
+    replace_import_subflow_id = "aaa09d0fd367dd54e41d65f5c2d1e0e9"
   }
 
   // Connector link: annotationConnector
