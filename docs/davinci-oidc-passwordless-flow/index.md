@@ -19,7 +19,7 @@ An exhaustive list of settings including defaults.
 ## Variables
 | Variable | Value | Context | Display Name | Field Type | Min | Max | Mutable | Type |                                                                                                                                                                
 |----------------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| agreementId##SK##flowInstance | ad9897f7-0dfb-40d4-a4af-67597992499c | flowInstance | Agreement id | string | 0 | 2000 | true | property | 
+| agreementId##SK##flowInstance | 837fc6db-c549-4aef-8b79-cf9292d7b276 | flowInstance | Agreement id | string | 0 | 2000 | true | property | 
  | ciam_accountRecoveryEnabled##SK##company | false | company | Account recovery enabled | boolean | 0 | 2000 | true | property | 
  | ciam_agreementEnabled##SK##company | false | company | Agreement enabled | boolean | 0 | 2000 | true | property | 
  | ciam_appleEnabled##SK##company | false | company | Apple enabled | boolean | 0 | 2000 | true | property | 
@@ -37,7 +37,7 @@ An exhaustive list of settings including defaults.
  | ciam_protectPredictor##SK##flowInstance |  | flowInstance | Used by CIAM Passwordless and PingOne Protect flows. | string | 0 | 2000 | true | property | 
  | ciam_protectRiskID##SK##flowInstance |  | flowInstance | This variable is used by CIAM Passwordless with pingone protect flows. | string | 0 | 2000 | true | property | 
  | ciam_protectRiskLevel##SK##flowInstance |  | flowInstance | Used by CIAM Passwordless and PingOne protect flows | string | 0 | 2000 | true | property | 
- | ciam_protectriskPolicyId##SK##company | cf0c925e-42b9-0c62-3141-ec6bc533e02b | company | This PingOne Protect Risk Policy ID will be passed by default. | string | 0 | 2000 | true | property | 
+ | ciam_protectriskPolicyId##SK##company | 19768c70-203f-0b7f-268c-214a8008fc70 | company | This PingOne Protect Risk Policy ID will be passed by default. | string | 0 | 2000 | true | property | 
  | ciam_sessionLengthInMinute##SK##company | 5 | company | Session length in minutes | number | 0 | 2000 | true | property | 
  | ciam_smsOtpEnabled##SK##company | true | company | SMS OTP enabled | boolean | 0 | 2000 | true | property | 
  

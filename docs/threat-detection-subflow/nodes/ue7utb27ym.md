@@ -69,8 +69,8 @@ inputSchema
 
 
 sktemplate
-```float64 
-1678116321755.00
+```string 
+f3e47d945ae971a4b4142ec75012d155
 ```
 
 
