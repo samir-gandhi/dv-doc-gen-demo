@@ -69,8 +69,19 @@ inputSchema
 
 
 sktemplate
-```string 
-
+```json 
+{
+	"type": "object",
+	"properties": {
+		"errorConnector": {
+			"type": "string",
+			"displayName": "Error Message",
+			"preferredControlType": "textField",
+			"enableParameters": true,
+			"propertyName": "errorConnector"
+		}
+	}
+}
 ```
 
 
