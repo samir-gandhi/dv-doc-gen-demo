@@ -27,11 +27,11 @@ resource "davinci_flow" "ciam_passwordless_protect_account_recovery_subflow" {
 
   flow_json = file("./davinci-flows/account-recovery-subflow.json")
 
-    // Subflow link: CIAM-Passwordless-Protect-Threat-Detection-Subflow
+  // Subflow link: CIAM-Passwordless-Protect-Threat-Detection-Subflow
   subflow_link {
     id                        = davinci_flow.ciam_passwordless_protect_threat_detection_subflow.id
     name                      = davinci_flow.ciam_passwordless_protect_threat_detection_subflow.name
-    replace_import_subflow_id = "50dfb04423bc8d473be3894e7d078c8c"
+    replace_import_subflow_id = "1ec71a1c70ab26ffcdb4853fba37c2f4"
   }
 
   // Connector link: annotationConnector

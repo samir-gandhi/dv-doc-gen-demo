@@ -55,3 +55,4 @@ pids
 node_modules
 global.js
 localsecrets
+**/generated
